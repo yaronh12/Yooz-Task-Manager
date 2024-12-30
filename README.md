@@ -1,27 +1,41 @@
 # YoozTaskManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+This is a fully functional Task Manager web application designed to help users manage their tasks efficiently. The project showcases my proficiency in modern web development technologies, including Angular, Firebase, and Firestore. It includes features such as task creation, profile management, and real-time updates using Firestore.
 
-## Development server
+## 🌐 Deployment
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The project is deployed and live at:
+👉 [Task Manager Application](https://yooz-task-manager.firebaseapp.com)
 
-## Code scaffolding
+Feel free to explore the app and see its functionality in action.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## 💻 Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Frontend Framework: Angular 16
+* Backend & Database: Firebase (Firestore)
+* Authentication: Firebase Authentication
+* Deployment: Firebase Hosting
 
-## Running unit tests
+## 🚀 Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Task Management:
 
-## Running end-to-end tests
+  * Add, edit, and delete tasks.
+  * Organize tasks efficiently with a user-friendly interface.
+2. User Authentication:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  * Users can log in using their Google accounts for a seamless experience.
+3. Profile Management:
 
-## Further help
+  * Users can edit their profile, including updating their display name and profile picture.
+4. Real-Time Updates:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  * Leverages Firestore for real-time updates and seamless data synchronization.
+
+
+## 📱 Compatibility Notice
+
+The website is currently not optimized for mobile screens. The primary focus of this project was to demonstrate functionality and scalability, so efforts were concentrated on ensuring a robust and feature-rich desktop experience. However, mobile compatibility can be added as part of future improvements.
+
+
