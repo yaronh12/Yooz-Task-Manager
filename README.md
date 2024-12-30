@@ -41,6 +41,6 @@ Feel free to explore the app and see its functionality in action.
 
 ## 📱 Compatibility Notice
 
-The website is currently not optimized for mobile screens. The primary focus of this project was to demonstrate functionality and scalability, so efforts were concentrated on ensuring a robust and feature-rich desktop experience. However, mobile compatibility can be added as part of future improvements.
+The website is currently not optimized for mobile screens. Since this was a home assignment, I believe the primary focus was on demonstrating functionality and scalability. Efforts were therefore concentrated on ensuring a robust and feature-rich desktop experience. However, mobile compatibility can be added as part of future improvements.
 
 
