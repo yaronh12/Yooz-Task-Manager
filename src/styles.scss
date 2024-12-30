@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    .card {
+        display: block;
+        max-width: 300px;
+        margin: auto;
+
+        background: #d3d9de;
+        padding: 50px;
+        padding-bottom: 5px;
+
+        border-radius: 16px;
+
+        position: relative;
+
+        mat-form-field {
+            width: 100%;
+        }
+
+    }
+
+    .h1 {
+        margin-bottom: 32px;
+    }
+
+    .helper-buttons {
+        display: flex;
+        /* Flexbox for horizontal alignment */
+        justify-content: space-between;
+        /* Spread buttons across the container */
+        align-items: center;
+        /* Align items vertically */
+        margin-top: 20px;
+        margin-bottom: 0px;
+        /* Add spacing above and below */
+        padding: 0 20px;
+        /* Optional: Add padding to the container */
+    }
+
+    .link-button,
+    .forgot-password-button {
+        color: #757575 !important;
+        /* Darker cool gray */
+        font-weight: bold;
+        font-size: 14px;
+        text-decoration: none;
+        background: none;
+        /* Transparent background */
+        border: none;
+        /* No border */
+        cursor: pointer;
+    }
+
+    .link-button:hover,
+    .forgot-password-button:hover {
+        color: #6200ea !important;
+        /* Highlight with purple on hover */
+        text-decoration: underline;
+        /* Underline effect */
+    }
+
+    .link-button:focus,
+    .forgot-password-button:focus {
+        outline: none;
+        /* Remove focus outline */
+    }
+
+    .styled-link:hover {
+        text-decoration: underline;
+        /* Underline on hover */
+    }
+
+    .styled-link:focus {
+        outline: none;
+        /* Remove focus outline */
+    }
+
+
+    .login-title {
+        color: #424242;
+        /* Subtle dark gray */
+        font-size: 28px;
+        /* Slightly smaller font size */
+        font-weight: 500;
+        /* Medium weight for a softer look */
+        text-align: center;
+        /* Center the text */
+        margin: 15px 0;
+        /* Moderate spacing above and below */
+        letter-spacing: 0.5px;
+        /* Subtle spacing between letters */
+    }
+
+
+
+
+
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top {
+    margin-top: 16px !important;
+}
+
+.text-center {
+    text-align: center;
+}
