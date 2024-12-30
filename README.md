@@ -19,19 +19,24 @@ Feel free to explore the app and see its functionality in action.
 
 ## 🚀 Features
 
-1. Task Management:
+1. User Authentication:
 
-    * Add, edit, and delete tasks.
-    * Organize tasks efficiently with a user-friendly interface.
-2. User Authentication:
+    * Users can register and log in.
+    * External login is available via Google.
+2. Profile Management:
 
-    * Users can log in using their Google accounts for a seamless experience.
-3. Profile Management:
+    * Users can edit their profile, updating their display name, email and password.
+    * All profile data is securely stored in Firestore.
+3. Task Management:
 
-    * Users can edit their profile, including updating their display name and profile picture.
-4. Real-Time Updates:
+    * Create New Tasks: Users can create tasks with the following details: name, description and due date.
+    * Update Task Status: Tasks can be marked as: "Pending", "In Process", "Done".
+    * View and Filter Tasks: Users can view a list of tasks and sort them by clicking on the task property.
+    * Edit and Delete Tasks: Existing tasks can be updated or removed.
 
-    * Leverages Firestore for real-time updates and seamless data synchronization.
+  4. Change History:
+     * All updates to tasks (e.g., renaming, status changes) are tracked and stored in Firestore.
+     * All updates to profileare tracked and stored in Firestore.
 
 
 ## 📱 Compatibility Notice
